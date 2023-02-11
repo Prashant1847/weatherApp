@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Weather Site</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- style sheet -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- javascript -->
+        <script src="main.js" defer></script>
+    </head>
+    <body class="flex-center body-bg">
+        <img src="images/backgroundImages/clear-sky-bg.jpg" class="bg-img">
+       
+        <div class="container">
+
+            <div class="container loading-screen flex-center hideLoadingScreen">
+                <img src="images/backgroundImages/ZZ5H.gif" class="loading-img">
+            </div>
+
+            <div class="date-time-container">
+                <span class="date">Date</span>
+                <span class="seperator">|</span>
+                <span class="time">Time</span>
+            </div>
+
+            <div class="select-city-contianer flex-center ">
+                <input type="text" id="" class="select-city-txtBox" placeholder="Enter a city">
+                <img src="images/icons8-search.svg" alt="" class="search-icon">
+            </div>
+
+            <div class="temperature-container flex">
+                <div class="min-temp">0°C</div>
+                <div class="temp">0°C</div>
+                <div class="max-temp">0°C</div>
+            </div>
+
+            <div class="weather-img-container flex-center">
+                <img src="images/few-clouds.png" alt="weather-icon" class="weather-img">
+            </div>
+
+            <div class="temp-description">
+                Description
+            </div>
+
+            <div class="location">
+             Enter City
+            </div>
+
+            <div class="other-temp-details flex">
+                <div class="humidity ">
+                    Humidity <img src="images/humidity.png" alt="" class="temp-details-icons"> <span class="humidity-value">0</span>
+                </div>
+                <div class="wind">
+                    Wind <img src="images/wind.png" alt="" class="temp-details-icons"><span class="wind-value">0</span>
+                </div>
+            </div>
+            
+            <div class="message">
+                made by Prashant Kumar
+            </div>
+        </div>
+    </body>
+</html>
